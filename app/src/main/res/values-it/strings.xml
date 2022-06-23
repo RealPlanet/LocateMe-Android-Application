@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hintHistoryButton">Storico</string>
+    <string name="hintLatitude">Latitudine</string>
+    <string name="hintAltitude">Altitudine</string>
+    <string name="hintLongitude">Longitudine</string>
+    <string name="hintLatitudeColon">Latitudine: %f</string>
+    <string name="hintLongitudeColon">Longitudine: %f</string>
+    <string name="hintAltitudeColon">Altitudine: %f</string>
+    <string name="hintBearingColon">Angolo: %s</string>
+    <string name="hintSpeedColon">Velocità: %s</string>
+    <string name="hintAccuracyColon">Accuratezza: %s</string>
+    <string name="hintGPSServiceTitle">GPS Attivo</string>
+    <string name="hintGPSServiceContent">Tracciando la tua posizione</string>
+    <string name="hintItemLocationList">%s\nLatitudine: %f\nLongitudine: %f\nAltitudine %f</string>
+    <string name="hintChartNoData">Nessun dato attualmente registrato.</string>
+    <string name="hintChartButton">Grafici</string>
+    <string name="hintVarianceIndicator">Indica graficamente la variazione di una determinata coordinata</string>
+    <string name="hintRequiredPermissions">Questa applicazione richiede la tua posizione</string>
+    <string name="contentDescRecycleButton">Rimuove tutte le posizioni registrate</string>
+    <string name="hintHomeButton">Casa</string>
+    <string name="contentDescBckButton">Vai indietro</string>
+    <string name="hintMapButton">Mappa</string>
+    <string name="hintCenterButton">Centra</string>
+    <string name="hintDiscardDialogTitle">Cancellare lo storico?</string>
+    <string name="hintDiscardDialogDesc">Sei sicuro?</string>
+    <string name="hintYes">Si</string>
+    <string name="hintNo">No</string>
+    <string name="hintContentDescInspect">Ispeziona la posizione selezionata</string>
+    <string name="contentDescriptionNone">Nulla</string>
+</resources>

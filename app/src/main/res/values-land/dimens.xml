@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="chart_display_width">250dp</dimen>
+    <dimen name="chart_display_height">250dp</dimen>
+</resources>

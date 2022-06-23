@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.planet.gpstracker.fragment.navigator.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.planet.gpstracker.fragment.navigator.ListFragment"
+        android:label="fragment_chart"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_inspect_location"
+            app:destination="@id/locationInspectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationInspectFragment"
+        android:name="com.planet.gpstracker.fragment.navigator.LocationInspectFragment"
+        android:label="fragment_location_inspec"
+        tools:layout="@layout/fragment_location_inspect">
+        <argument
+            android:name="location"
+            app:argType="android.location.Location" />
+    </fragment>
+    <fragment
+        android:id="@+id/chartFragment"
+        android:name="com.planet.gpstracker.fragment.navigator.ChartFragment"
+        android:label="fragment_chart"
+        tools:layout="@layout/fragment_chart" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.planet.gpstracker.fragment.navigator.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

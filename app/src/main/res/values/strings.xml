@@ -1,0 +1,33 @@
+<resources>
+    <string name="hintApplicationName" translatable="false">Locate me</string>
+    <string name="hintHistoryButton">History</string>
+    <string name="hintLatitude">Latitude</string>
+    <string name="hintLongitude">Longitude</string>
+    <string name="hintAltitude">Altitude</string>
+    <string name="hintLatitudeColon">Latitude: %f</string>
+    <string name="hintLongitudeColon">Longitude: %f</string>
+    <string name="hintAltitudeColon">Altitude: %f</string>
+    <string name="hintBearingColon">Bearing: %s</string>
+    <string name="hintSpeedColon">Speed: %s</string>
+    <string name="hintAccuracyColon">Accuracy: %s</string>
+    <string name="hintString" translatable="false">%s</string>
+    <string name="hintNumeric" translatable="false">%.7f"</string>
+    <string name="hintGPSServiceTitle">GPS Active</string>
+    <string name="hintGPSServiceContent">Logging your location</string>
+    <string name="hintItemLocationList">%s\nLatitude: %f\nLongitude: %f\nAltitude %f</string>
+    <string name="hintChartNoData">Char has no data currently.</string>
+    <string name="hintChartButton">Charts</string>
+    <string name="hintVarianceIndicator">Visually indicate the variation of a given coordinate</string>
+    <string name="hintRequiredPermissions">This application requires your position to work</string>
+    <string name="contentDescRecycleButton">Deletes all tracked locations</string>
+    <string name="hintHomeButton">Home</string>
+    <string name="contentDescBckButton">Goes back once.</string>
+    <string name="hintMapButton">Map</string>
+    <string name="hintCenterButton">Center</string>
+    <string name="hintDiscardDialogTitle">Delete history?</string>
+    <string name="hintDiscardDialogDesc">Are you sure?</string>
+    <string name="hintYes">Yes</string>
+    <string name="hintNo">No</string>
+    <string name="hintContentDescInspect">Inspect the location item</string>
+    <string name="contentDescriptionNone">None</string>
+</resources>

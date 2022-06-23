@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chart_display_width">350dp</dimen>
+    <dimen name="chart_display_height">270dp</dimen>
+    <dimen name="app_font_size">20sp</dimen>
+
+    <dimen name="locationDataConstraintWidth">128dp</dimen>
+    <dimen name="locationDataConstraintHeight">190dp</dimen>
+    <dimen name="varianceIndicatorSize">32dp</dimen>
+</resources>

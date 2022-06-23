@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/app_ico"
+        android:title="@string/hintHomeButton" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/hintMapButton"/>
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/hintHistoryButton" />
+    <item
+        android:id="@+id/chartFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:title="@string/hintChartButton"/>
+</menu>

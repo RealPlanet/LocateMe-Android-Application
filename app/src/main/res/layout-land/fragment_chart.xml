@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.navigator.ChartFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/outer_space_crayola">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/longitude_chart"
+            android:layout_width="@dimen/chart_display_width"
+            android:layout_height="@dimen/chart_display_height"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/latitude_chart"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/latitude_chart"
+            android:layout_width="@dimen/chart_display_width"
+            android:layout_height="@dimen/chart_display_height"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/longitude_chart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.104" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

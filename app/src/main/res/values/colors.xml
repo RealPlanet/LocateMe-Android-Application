@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC107</color>
+    <color name="green">#00FF1A</color>
+    <color name="red">#FF0000</color>
+
+    <color name="outer_space_crayola">#1F363D</color>
+    <color name="teal_blue" tools:keep="@color/teal_blue">#40798C</color>
+    <color name="green_sheen">#70A9A1</color>
+    <color name="cambridge_blue">#9EC1A3</color>
+    <color name="tea_green" tools:keep="@color/tea_green">#CFE0C3</color>
+    <color name="special_grey" tools:keep="@color/special_grey">#616161</color>
+    <color name="dark_grey" tools:keep="@color/special_grey">#404040</color>
+</resources>
